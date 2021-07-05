@@ -29,10 +29,6 @@ function draw() {
   sea.velocityX = -3;
 
   
-  //code to reset the background
-  if(sea.x < 0){
-    sea.x = sea.width/8;
-  }
     
   drawSprites();
 }
